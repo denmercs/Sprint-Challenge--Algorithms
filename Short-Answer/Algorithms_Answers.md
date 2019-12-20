@@ -1,6 +1,6 @@
-#### Please add your answers to the **_Analysis of Algorithms_** exercises here.
+##### Please add your answers to the **_Analysis of Algorithms_** exercises here.
 
-## Exercise I
+### Exercise I
 
 a)
 O(n) is the answer. When the while loops run 'a' which is initially set to 0. Let's assume that n is 5 and then the first loop will become 25. On the second the a becomes 50. Each loop will take 5 rounds to reach 125 and then breaks the loop.
@@ -11,7 +11,7 @@ O(log(n)). We first get n, and the outer loop is going to run 'n' time regardles
 c)
 O(n). As long as there is a return value, the recursion will not run an infinite loop.
 
-## Exercise II
+### Exercise II
 
 O(log(n))
 
