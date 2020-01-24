@@ -105,7 +105,6 @@ class SortingRobot:
 
         while self.light_is_on():
             self.set_light_off()
-
             print(self._list)
 
             while self.can_move_right():
@@ -115,9 +114,6 @@ class SortingRobot:
                     self.set_light_on()
                 else:
                     self.move_right()
-
-            if self.light_is_on() == False:
-                break
 
             self.set_light_off()
 
@@ -132,6 +128,9 @@ class SortingRobot:
                 else:
                     self.move_left()
 
+            if self.light_is_on() == False:
+                break
+
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
@@ -143,4 +142,4 @@ if __name__ == "__main__":
     robot = SortingRobot(l)
 
     robot.sort()
-    # print(robot._list)
+    print(robot._list)
