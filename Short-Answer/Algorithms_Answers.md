@@ -3,17 +3,15 @@
 ### Exercise I
 
 a)
-O(n). Since it has a loop. it runs 'a' which is initially set to 0. If a = 5 and then the first loop will become 25. On the second the a becomes 50. Each loop will take 5 rounds to reach 125 and then breaks the loop.
+O(n). Since it is a loop. Time complexity grows while the value of a.
 
 b)
 O(n^2). Since it has 2 iterators. We first get n, and the outer loop is going to run 'n' time regardless of what happens in the inner loop. Then in the inner loop, the number 'j' that has to reach the value of 'n' loops which grows.
 
 c)
-O(n). As long as there is a return value, the recursion will not run an infinite loop.
+O(n). Since it's recursion, as long as their is a base / return value it doesn't allow any infinite loop.
 
 ### Exercise II
-
-O(log(n)) --> Binary search
 
 ### PLANNING
 
@@ -29,3 +27,7 @@ O(log(n)) --> Binary search
 - create a left pointer at the start of the array, and a right pointer at the end of the array
 - While the left pointer comes before the right pointer: - create a pointer in the middle - if you find the value you want, return the index - if the value is too small, move the left pointer up - if the value is too large, move the right ointer down
 - if you never find the value return -1
+
+### COMPLEXITY
+
+- O(log(n)) --> Binary search
