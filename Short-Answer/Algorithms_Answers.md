@@ -3,7 +3,7 @@
 ### Exercise I
 
 a)
-O(n). Since it is a loop. Time complexity grows while the value of a.
+O(n). Since it is a loop. Time complexity grows in the while loop which is the value of a.
 
 b)
 O(n^2). Since it has 2 iterators. We first get n, and the outer loop is going to run 'n' time regardless of what happens in the inner loop. Then in the inner loop, the number 'j' that has to reach the value of 'n' loops which grows.
